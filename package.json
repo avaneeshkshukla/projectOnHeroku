@@ -1,0 +1,33 @@
+{
+  "name": "cisg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.1.0",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongojs": "*",
+    "mongoose": "*",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.19.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "request": "^2.88.0"
+  }, 
+  "devDependencies": {},
+  "scripts": {
+    "start":"node server.js"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
